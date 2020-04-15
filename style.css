@@ -7,16 +7,28 @@ img {
     display: block ;
     margin: auto ;
 }
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-.nav {
+.nav>li {
     display: inline ;
-    padding: 5px ;
+    border: solid black 2px;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
 }
 
 h1, h2 {
     text-align: center ;
 }
 
-footer.a {
-    align-content: center;
+h2 {
+    font-family: cursive;
+}
+
+footer {
+    display: block;
+    text-align: center ;
 }
