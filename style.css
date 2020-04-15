@@ -1,0 +1,22 @@
+* {
+    background-color: #CDCED1 ;
+    color: rgba(34, 32, 32, 0.938) ;
+}
+
+img {
+    display: block ;
+    margin: auto ;
+}
+
+.nav {
+    display: inline ;
+    padding: 5px ;
+}
+
+h1, h2 {
+    text-align: center ;
+}
+
+footer.a {
+    align-content: center;
+}
