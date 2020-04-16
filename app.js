@@ -1,18 +1,23 @@
-alert('Welcome to my website!') 
-
-var userName = prompt('What is your name?')
-
+'use strict'
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
-if (hourNow > 12) {
-    greeting = 'Good afternoon';
-} else if (hourNow > 0 ) {
-    greeting = 'Good morning';
-} else {
-    greeting = 'Welcome';
+function welcome() {
+    alert('Welcome to my website!') 
 }
 
+function morningOrAfternoon(){
+    if (hourNow > 10) {
+        greeting = 'Good afternoon';
+    } else if (hourNow > 0 ) {
+        greeting = 'Good morning';
+    } else {
+        greeting = 'Welcome';
+    }
+    document.write('<h3>'+ greeting + ' ' + userName + '!' + '</h3>');
+    return greeting ;
+}
+welcome();
 
-document.write('<h3>'+ greeting + ' ' + userName + '!' + '</h3>');
+var userName = prompt('What is your name?')
