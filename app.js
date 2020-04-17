@@ -3,14 +3,14 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-var trueFan = 'nope'
+var trueFan = 'nope';
 
 function welcome() {
     alert('Welcome to the Shire!') 
 }
 welcome();
 
-var userName = prompt('What is your name?')
+var userName = prompt('What is your name?');
 
 function morningOrAfternoon(){
     if (hourNow > 12 ) {
