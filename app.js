@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var today = new Date();
 var hourNow = today.getHours();
@@ -6,13 +6,13 @@ var greeting;
 var trueFan = 'nope';
 
 function welcome() {
-    alert('Welcome to the Shire!') 
+    alert('Welcome to the Shire!');
 }
 welcome();
 
 var userName = prompt('What is your name?');
 
-function morningOrAfternoon(){
+function morningOrAfternoon() {
     if (hourNow > 12 ) {
         greeting = 'Good afternoon';
     } else if (hourNow > 0 ) {
